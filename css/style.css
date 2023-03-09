@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+header h1 a {
+	letter-spacing: 1px;
+	font-size: 40px;
+	text-decoration: none;
+	color: black;
+	background-color: transparent;
+}
+
+.nav-item a {
+	letter-spacing: 0.1em;
+	font-size: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: black;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+	color: #20c997;
+}
+
+.site-menu li {
+	float: left;
+	text-decoration: none;
+	margin-left: 20px;
+	list-style: none;
+}
+.site-menu a {
+	color: black;
+}
+
+header a :hover {
+	color: #20c997;
+}
