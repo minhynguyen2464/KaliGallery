@@ -1,6 +1,5 @@
 * {
 	box-sizing: border-box;
-
 	font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -45,4 +44,45 @@ header h1 a {
 
 header a :hover {
 	color: #20c997;
+}
+
+footer {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+body {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.carousel-item img {
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+img {
+	-webkit-filter: brightness(100%);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.body:hover img {
+	-webkit-filter: brightness(50%);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.logo:hover a {
+	color: #20c997;
+}
+
+.site-menu {
+	margin-bottom: 0px;
 }
