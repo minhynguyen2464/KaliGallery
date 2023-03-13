@@ -4,13 +4,16 @@
 }
 
 header {
+	padding-top: 10px;
+	padding-bottom: 10px;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	border-bottom: 1px solid #dee2e6;
 }
 
 header h1 a {
 	letter-spacing: 1px;
-	font-size: 40px;
+	font-size: 2rem;
 	text-decoration: none;
 	color: black;
 	background-color: transparent;
@@ -18,7 +21,7 @@ header h1 a {
 
 .nav-item a {
 	letter-spacing: 0.1em;
-	font-size: 1rem;
+	font-size: 12px;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -79,10 +82,50 @@ img {
 	transition: all 1s ease;
 }
 
-.logo:hover a {
+.logo:hover {
 	color: #20c997;
 }
 
 .site-menu {
 	margin-bottom: 0px;
+}
+
+.site-section-heading {
+	font-size: 4rem;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+.icon {
+	margin-bottom: 20px;
+	color: #20c997;
+}
+.site-block-feature {
+	margin-bottom: 20px;
+}
+.site-block-feature .icon {
+	-webkit-transition: 0.2s all ease-in-out;
+	-o-transition: 0.2s all ease-in-out;
+	transition: 0.2s all ease-in-out;
+	position: relative;
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+
+.site-block-feature:hover .icon {
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.price {
+	color: #20c997;
+}
+
+.carousel-caption {
+	top: 50%;
+	transform: translateY(-50%);
+	bottom: initial;
 }
