@@ -28,13 +28,6 @@ header h1 a {
 	color: black;
 }
 
-.navbar-light .navbar-nav .active > .nav-link,
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .show > .nav-link {
-	color: #20c997;
-}
-
 .site-menu li {
 	float: left;
 	text-decoration: none;
@@ -43,6 +36,10 @@ header h1 a {
 }
 .site-menu a {
 	color: black;
+}
+
+.navbar-light .navbar-nav .active {
+	color: #20c997 !important;
 }
 
 header a :hover {
@@ -94,7 +91,6 @@ img {
 	font-size: 4rem;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	margin-bottom: 20px;
 }
 
 .icon {
@@ -128,4 +124,19 @@ img {
 	top: 50%;
 	transform: translateY(-50%);
 	bottom: initial;
+}
+
+.dropdown-menu {
+	opacity: 0;
+	transform: translateY(20%);
+	transition: all 0.5s;
+}
+.dropdown:hover .dropdown-menu {
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0%);
+}
+
+.item img {
+	object-fit: cover;
 }
