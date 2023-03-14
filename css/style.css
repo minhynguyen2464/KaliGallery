@@ -70,15 +70,6 @@ img {
 	transition: all 1s ease;
 }
 
-.body:hover img {
-	-webkit-filter: brightness(50%);
-	-webkit-transition: all 1s ease;
-	-moz-transition: all 1s ease;
-	-o-transition: all 1s ease;
-	-ms-transition: all 1s ease;
-	transition: all 1s ease;
-}
-
 .logo:hover {
 	color: #20c997;
 }
@@ -146,6 +137,7 @@ img {
 footer {
 	padding-top: 20px;
 	border-top: 1px solid #dee2e6;
+	margin-top: 0px;
 }
 
 .item-same img {
@@ -162,7 +154,47 @@ footer {
 }
 
 .item-same:hover img {
-	-webkit-transform: scale(1.2);
-	-ms-transform: scale(1.2);
-	transform: scale(1.2);
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.centered {
+	color: black;
+	position: absolute;
+	top: 50%;
+	right: 30%;
+	transform: translateX(-50%, -50%);
+}
+
+.item-thumbnail img {
+	opacity: 0.5;
+	overflow: clip;
+	overflow-clip-margin: content-box;
+	object-fit: cover;
+	-webkit-transition: 0.2s all ease-in-out;
+	-o-transition: 0.2s all ease-in-out;
+	transition: 0.2s all ease-in-out;
+	position: relative;
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+
+.item-thumbnail:hover img {
+	opacity: 1;
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.item-thumbnail p {
+	transition: opacity 0.2s ease-out;
+	opacity: 1;
+	display: block;
+	overflow: hidden;
+}
+
+.item-thumbnail:hover p {
+	opacity: 0;
 }
