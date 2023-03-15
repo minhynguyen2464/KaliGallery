@@ -204,6 +204,7 @@ footer {
 }
 
 .about-info li {
+	letter-spacing: 0px;
 	font-size: medium;
 	margin-top: 10px;
 }
