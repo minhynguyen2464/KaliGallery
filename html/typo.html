@@ -21,10 +21,10 @@
 
 </head>
 
-<body>
+<body onload="document.body.style.opacity='1'">
     <div class="site-wrap">
         <header>
-            <div class="container-fluid">
+            <div class="container pl-xl-0 pr-xl-0">
                 <div class="row align-items-center">
                     <div class="col-4 col-md-4 col-lg-2 col-xl-2">
                         <h1 class="mb-0">
@@ -115,7 +115,7 @@
                 <div class="row justify-content-center">
                     <div class="col-md-7">
                         <div class="col-12">
-                            <h2 class="site-section-heading text-center">
+                            <h2 class="site-section-heading text-center" style="margin-bottom: 0px;">
                                 Typo
                             </h2>
                         </div>
@@ -152,18 +152,21 @@
 
         </div>
     </div>
-    <footer style="margin-top: 20px; text-align: center;">
-        <p>Copyright ©
-            <script>document.write(new Date().getFullYear())</script>
-            <span class="text-right">| Made by
-                Shun
-                for
-                <span style="color: #20c997;">Kali</span>
-            </span>
-        </p>
+    <footer>
+        <div class="container pl-xl-0 pr-xl-0">
+            <div class="row">
+                <div class="col-12">
+                    <p>Copyright ©
+                        <script>document.write(new Date().getFullYear())</script>
+                        <span class="text-right">| Made by
+                            Shun for <span style="color: #20c997;">Kali</span>
+                        </span>
+                    </p>
+                </div>
+            </div>
 
+        </div>
     </footer>
-
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"
         integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>

@@ -22,10 +22,10 @@
 
 </head>
 
-<body>
+<body onload="document.body.style.opacity='1'">
     <div class="site-wrap">
         <header>
-            <div class="container-fluid">
+            <div class="container pl-xl-0 pr-xl-0">
                 <div class="row align-items-center">
                     <div class="col-4 col-md-4 col-lg-2 col-xl-2">
                         <h1 class="mb-0">
@@ -114,7 +114,7 @@
         <div class="body">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="item-thumbnail col-12 col-md-4 mb-3 pl-md-0">
+                    <div class="item-thumbnail col-12 col-md-4 pl-md-0">
                         <a href="html/typo.html" data-fancybox="gallery" class="fancybox">
                             <div class="thumbnail-container">
                                 <img src="image/download (3).jpg" width="100%" height="100%">
@@ -124,7 +124,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="item-thumbnail col-12 col-md-4 mb-3 pl-md-0">
+                    <div class="item-thumbnail col-12 col-md-4 pl-md-0">
                         <a href="html/typo.html" data-fancybox="gallery" class="fancybox">
                             <div class="thumbnail-container">
                                 <img src="image/download (1).jpg" width="100%" height="100%">
@@ -134,7 +134,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="item-thumbnail col-12 col-md-4 mb-3 pl-md-0">
+                    <div class="item-thumbnail col-12 col-md-4 pl-md-0">
                         <a href="html/typo.html" data-fancybox="gallery" class="fancybox">
                             <div class="thumbnail-container">
                                 <img src="image/download.jpg" width="100%" height="100%">
@@ -148,17 +148,23 @@
             </div>
         </div>
         <footer>
-            <p>Copyright ©
-                <script>document.write(new Date().getFullYear())</script>
-                <span class="text-right">| Made by
-                    Shun
-                    for
-                    <span style="color: #20c997;">Kali</span>
-                </span>
-            </p>
+            <div class="container pl-xl-0 pr-xl-0">
+                <div class="row">
+                    <div class="col-12">
+                        <p>Copyright ©
+                            <script>document.write(new Date().getFullYear())</script>
+                            <span class="text-right">| Made by
+                                Shun for <span style="color: #20c997;">Kali</span>
+                            </span>
+                        </p>
+                    </div>
+                </div>
 
+            </div>
         </footer>
+
     </div>
+    <script src="js/myJS.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
