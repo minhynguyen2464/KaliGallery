@@ -246,8 +246,8 @@ html {
 	text-fill-color: transparent;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	animation: textclip 8s linear infinite;
-	font-size: 4rem;
+	animation: textclip 2s linear infinite;
+	font-size: 3rem;
 	font-weight: 900;
 }
 
